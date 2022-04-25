@@ -1,0 +1,1 @@
+printjson(db.cwiczenia2.deleteMany({height:{$gt:"190"}}))

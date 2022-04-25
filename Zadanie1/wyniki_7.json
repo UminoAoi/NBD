@@ -1,0 +1,5 @@
+MongoDB shell version v5.0.7
+connecting to: mongodb://127.0.0.1:27017/cwiczenia2?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("a8fb02d6-5649-489e-bcb8-e758a588a292") }
+MongoDB server version: 5.0.7
+{ "acknowledged" : true, "deletedCount" : 122 }

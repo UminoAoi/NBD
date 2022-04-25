@@ -1,0 +1,1 @@
+printjson(db.cwiczenia2.findOne({nationality: "China","sex": "Female"}))
