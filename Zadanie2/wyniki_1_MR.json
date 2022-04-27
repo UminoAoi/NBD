@@ -1,0 +1,23 @@
+MongoDB shell version v5.0.7
+connecting to: mongodb://127.0.0.1:27017/cwiczenia2?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("ae0721f3-267a-4ff0-8def-efea63042374") }
+MongoDB server version: 5.0.7
+{
+	"results" : [
+		{
+			"_id" : "Male",
+			"value" : {
+				"weight" : 70.00976575121165,
+				"height" : 166.73469507269806
+			}
+		},
+		{
+			"_id" : "Female",
+			"value" : {
+				"weight" : 70.11000609013405,
+				"height" : 166.81252131546879
+			}
+		}
+	],
+	"ok" : 1
+}
