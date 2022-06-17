@@ -1,0 +1,40 @@
+Utworzone połączenie...
+
+[main] INFO com.basho.riak.client.core.RiakNode - RiakNode started; 127.0.0.1:8087
+[main] INFO com.basho.riak.client.core.RiakCluster - RiakCluster is starting.
+
+Dokument dodany do bazy... 
+
+[main] INFO com.basho.riak.client.core.util.DefaultCharset - No desired charset found in system properties, the default charset 'UTF-8' will be used
+[main] INFO com.basho.riak.client.core.util.DefaultCharset - Initializing client charset to: UTF-8
+{location: {namespace: {type: default, bucket: s16612}, key: Z21}, values: []}
+Dodanie.
+
+Wyświetlenie dokumentu... 
+
+{"Nazwa":"PPJ", "trudnosc":2, "zdawalnosc":0.40, "obieralny":false}
+
+Modyfikacja dokumentu...
+
+Zmodyfikowano.
+
+Wyświetlenie dokumentu...
+
+{"Nazwa":"PJC", "trudnosc":3, "zdawalnosc":0.40, "obieralny":false}
+
+Usunięcie dokumentu...
+
+Usunięto.
+
+Pobranie dokumentu...
+
+???
+
+Zamknięcie bazy...
+
+[main] INFO com.basho.riak.client.core.RiakCluster - RiakCluster is shutting down.
+[pool-1-thread-1] INFO com.basho.riak.client.core.RiakCluster - All operations have completed
+[pool-1-thread-1] INFO com.basho.riak.client.core.RiakNode - RiakNode shutting down; 127.0.0.1:8087
+[pool-1-thread-1] INFO com.basho.riak.client.core.DefaultNodeManager - NodeManager removed node due to it shutting down; 127.0.0.1:8087
+[pool-1-thread-2] INFO com.basho.riak.client.core.RiakCluster - Retrier shutting down.
+[pool-1-thread-2] INFO com.basho.riak.client.core.RiakCluster - RiakCluster has shut down
