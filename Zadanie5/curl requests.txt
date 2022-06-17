@@ -1,0 +1,38 @@
+//1
+
+curl -i -X PUT -H "Content-Type: application/json" -d '{"Nazwa":"PPJ", "trudnosc":2, "zdawalnosc":0.40, "obieralny":false}' http://127.0.0.1:8098/buckets/s16612/keys/Z1
+
+curl -i -X PUT -H "Content-Type: application/json" -d '{"Nazwa":"PJC", "trudnosc":3, "zdawalnosc":0.40, "obieralny":false}' http://127.0.0.1:8098/buckets/s16612/keys/Z2
+
+curl -i -X PUT -H "Content-Type: application/json" -d '{"Nazwa":"GUI", "trudnosc":2, "zdawalnosc":0.55, "obieralny":false}' http://127.0.0.1:8098/buckets/s16612/keys/Z3 
+
+curl -i -X PUT -H "Content-Type: application/json" -d '{"Nazwa":"UTP", "trudnosc":1, "zdawalnosc":0.80, "obieralny":false}' http://127.0.0.1:8098/buckets/s16612/keys/Z4
+
+curl -i -X PUT -H "Content-Type: application/json" -d '{"Nazwa":"TPO", "trudnosc":2, "zdawalnosc":0.70, "obieralny":true }' http://127.0.0.1:8098/buckets/s16612/keys/Z5
+
+//2
+curl -i http://127.0.0.1:8098/buckets/s16612/keys/Z2
+
+//3
+curl -i -X PUT -H "Content-Type: application/json" -d '{"Nazwa":"GUI", "trudnosc":2, "zdawalnosc":0.55, "obieralny":false, "priorytet":"niski"}' http://127.0.0.1:8098/buckets/s16612/keys/Z3
+
+//4
+curl -i -X PUT -H "Content-Type: application/json" -d '{"Nazwa":"GUI", "zdawalnosc":0.55, "obieralny":false, "priorytet":"niski"}' http://127.0.0.1:8098/buckets/s16612/keys/Z3
+
+//5
+curl -i -X PUT -H "Content-Type: application/json" -d '{"Nazwa":"TPO", "trudnosc":999, "zdawalnosc":0.70, "obieralny":true }' http://127.0.0.1:8098/buckets/s16612/keys/Z5
+
+//6
+curl -i -X DELETE http://127.0.0.1:8098/buckets/s16612/keys/Z1
+
+//7
+curl -i http://127.0.0.1:8098/buckets/s16612/keys/Z123
+
+//8
+curl -i -X POST -H "Content-Type: application/json" -d '{"Test":"123"}' http://127.0.0.1:8098/buckets/s16612/keys
+
+//9
+curl -i http://127.0.0.1:8098/buckets/s16612/keys?keys=true
+
+//10
+curl -i -X DELETE http://127.0.0.1:8098/buckets/s16612/keys/328hdsHDSYGD83RGSHD72YDnxd9
